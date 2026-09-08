@@ -2,7 +2,13 @@
   "name": "demo-ci-cd",
   "version": "1.0.0",
   "scripts": {
-    "build": "echo 'Build OK'",
-    "start": "echo 'Start OK'"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "14.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
